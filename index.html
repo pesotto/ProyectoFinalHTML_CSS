@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Envases Industriales</title>
+    <script src="https://kit.fontawesome.com/c50030a149.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--MENU-->
+    <header>
+        <div class="container">
+            <img class="logo" src="img/Logo Bideco.png" alt="Logo Bideco">
+            <nav>
+                <a href="#about-us">Quienes Somos</a>
+                <a href="#nuestros-servicios">Nuestros Servicios</a>
+                <a href="#contacto">Contactanos</a>
+                <a href="#"><i class="fa-brands fa-linkedin" alt="Linkedin Sereco" title="Linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube" alt="Youtube Sereco" title="Youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" alt="X-twitter Sereco" title="x-twitter"></i></a>
+            </nav>
+        </div>
+    </header>   
+    <section id="hero">
+        <h1>Reciclaje y Gestión de <br>Envases Industriales</h1>
+    </section>
+    <!--Sección Quienes Somos-->
+    <section id="about-us">
+        <div class="container">
+            <div class="img-container">
+                <img src="img/Gestion integral.jpg" alt="">
+            </div>
+            <div class="texto">
+                <h2>Gestión Integral <br>de<span class="color-acento"> Envases Industriales</span></h2>
+                <p>SERECO es respeto por el Medio Ambiente. Responsabilidad y rentabilidad en el tratamiento de sus residuos en los <b>bidones metálicos, bidones de plástico y GRGs</b> .</p>
+                <p>Con una dilatada experiencia en la gestión de residuos, hemos crecido para que su empresa crezca con nosotros. Para poder ofrecer soluciones de forma que se ocupe al cien por cien de su negocio, dejando los envases industriales y residuos de envases en nuestras manos. Es lo que sabemos hacer bien.</p>
+                <p>Desde el servicio de gestión y recogida de los envases, hasta su reutilización o reciclaje, fomentando la unión y el trabajo en equipo con nuestros clientes.</p>
+            </div>
+        </div>
+    </section>
+    <!--Sección Nuestros Servicios-->
+    <section id="nuestros-servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <hr>
+            <div class="servicios">
+                <div class="carta">
+                    <h3 class="title-1">Recogida y Sustitución</h3>
+                    <p>Nos ocupamos de la recogida de bidones y GRGs utilizados, en sus instalaciones y los sustituimos por otros para su continua utilización y actividad empresarial de nuestro cliente.Si los envases recogidos son reutilizables, el servicio de sustitución puede reducir los costes de forma eficiente.</p>
+                </div>
+                <div class="carta">
+                    <h3 class="title-2">Reparación</h3>
+                    <p>Los envases que se reciben en nuestras instalaciones se valoran y clasifican según el tipo de envase y de la procedencia del producto que ha contenido. Tratamos de gestionar los envases de plástico o metal para que no sean destruidos y sean recuperados y así contribuir a la sostenibilidad del medio ambiente.</p>
+                </div>
+                <div class="carta">
+                    <h3 class="title-3">Destrucción</h3>
+                    <p>¿Envases inservibles? <br>Nosotros nos encargamos de ellos. Da igual que sean de plástico o metal, nosotros los transformándolos en materia prima reutilizable para darle un nuevo uso.</p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!--Sección Video-->
+    <section id="video">
+        <div class="container">
+           <video src="videos/Limpieza_comprobacion_bidones_metálicos.mp4" width="100%" poster="img/recuperacion-bidones-metalicos.jpg" preload="metadata" controls></video>
+        </div>
+    </section>
+        <!--Sección Contactar-->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contactanos</h2>
+            <hr>
+            <h3>Envíanos tus dudas</h3>
+            <form action="#">
+                <div class="itemform">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                </div>
+                <div class="itemform">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                </div>
+                <div class="itemform">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                </div>
+                <div class="itemform">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                </div>
+                <div class="itemform">
+                    <input class="button" type="submit" name="boton" value="CONTACTAR">
+                </div>
+            </form>
+        </div>     
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Bideco 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
